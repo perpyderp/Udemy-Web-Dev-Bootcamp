@@ -7,7 +7,7 @@ const app = express();
 
 app.get("/", function(req, res) {
 
-    const url = "https://api.openweathermap.org/data/2.5/weather?q=Edison&appid=8250db915eda739034b58be99ceac9bc";
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=Edison&appid=";
     https.get(url, function(response){
         console.log(response);
     });
