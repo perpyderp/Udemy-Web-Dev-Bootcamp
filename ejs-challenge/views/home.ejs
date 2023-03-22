@@ -1,0 +1,23 @@
+<%- include("partials/header") -%>
+
+<h1>Home</h1>
+
+<p><%= homeContent %></p>
+<!--for(let i = 0; i < allPosts.length; i++) {
+    <h3>allPosts[i].title;</h3>
+    <p> allPosts[i].post; </p>
+ } -->
+
+<% allPosts.forEach(function(post){ %>
+    <h1><%= post.title; %></h1>
+    <p>
+    <% if(post.post.length > 100) { %>
+        <%= post.post.substring(0, 100) + "..." %>
+    <% } else { %>
+        <%= post.post %>
+    <% } %></p>
+    <a href="/posts/<%=post.title%>">Read more</a>
+<% }); %>
+
+
+<%- include("partials/footer") -%>
