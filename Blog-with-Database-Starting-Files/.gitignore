@@ -40,16 +40,7 @@ build/Release
 
 # Dependency directories
 **/node_modules
-Blog-with-Database-Starting-Files/node_modules/
-ejs-challenge/node_modules/
-ExpressJS with NodeJS/Calculator/node_modules/
-ExpressJS with NodeJS/my-express-server/node_modules/
-FruitsProject/node_modules/
-Secrets - Starting Code/node_modules/
-todolist-v1/node_modules/
-todolist-v2/node_modules/
-WeatherProject/node_modules/
-Wiki-API/node_modules/
+node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
